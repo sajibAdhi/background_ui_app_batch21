@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Image.network(
               'https://cdn.pixabay.com/photo/2012/03/03/23/52/sea-21649_960_720.jpg',
               height: MediaQuery.of(context).size.height,
-              // width: MediaQuery.of(context).size.width,
+              width: MediaQuery.of(context).size.width,
               fit: BoxFit.cover,
             ),
           ],
